@@ -1,0 +1,15 @@
+{
+  // knightstemplar.dev demonstration site: static assets only, no Worker code.
+  // Templar Ed Cloudflare account. Workers Builds deploys `main`.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "knightstemplar-site",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "workers_dev": true,
+  "preview_urls": true,
+  "observability": { "enabled": true }
+}

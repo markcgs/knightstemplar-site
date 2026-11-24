@@ -1,0 +1,917 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//knightstemplar.dev//Grand Encampment calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Grand Encampment of Knights Templar
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:the-grand-commandery-of-arizona-grand-conclave-2024@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240807
+DTEND;VALUE=DATE:20240810
+SUMMARY:The Grand Commandery of Arizona Grand Conclave 2024
+LOCATION:1011 W Holmes Ave\, Mesa\, AZ 85210
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/the-grand-commandery-of-arizona-grand-concl
+ ave-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-grand-commandery-of-michigan-grand-conclave-2024@knightstemplar.de
+ v
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240814
+DTEND;VALUE=DATE:20240815
+SUMMARY:The Grand Commandery of Michigan Grand Conclave 2024
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/the-grand-commandery-of-michigan-grand-conc
+ lave-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:69th-triennial-conclave@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240816
+DTEND;VALUE=DATE:20240821
+SUMMARY:69th Triennial Conclave
+LOCATION:500 Main St\, Salt Lake City\, UT 84101
+DESCRIPTION:Triennial
+URL:https://usagekt.org/events/69th-triennial-conclave/
+END:VEVENT
+BEGIN:VEVENT
+UID:triennial-drill-team-competition@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240817
+DTEND;VALUE=DATE:20240818
+SUMMARY:Triennial Drill Team Competition
+LOCATION:9575 State St.\, Sandy Utah 84070
+DESCRIPTION:8:00 am - 6:00 pm Drill Team
+URL:https://usagekt.org/events/triennial-drill-team-competition/
+END:VEVENT
+BEGIN:VEVENT
+UID:northeastern-department-conference-2024@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240905
+DTEND;VALUE=DATE:20240908
+SUMMARY:Northeastern Department Conference 2024
+LOCATION:660 Albany Shaker Rd\, Albany\, NY 12211
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/northeastern-department-conference-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-grand-commandery-of-colorado-grand-conclave-2024@knightstemplar.de
+ v
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240905
+DTEND;VALUE=DATE:20240907
+SUMMARY:The Grand Commandery of Colorado Grand Conclave 2024
+LOCATION:7390 W Hampden Ave\, Lakewood\, CO 80227
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/the-grand-commandery-of-colorado-grand-conc
+ lave-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-grand-commandery-of-wyoming-grand-conclave-2024@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240912
+DTEND;VALUE=DATE:20240914
+SUMMARY:The Grand Commandery of Wyoming Grand Conclave 2024
+LOCATION:1809 Sugarland Dr\, Sheridan\, WY 82801
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/the-grand-commandery-of-wyoming-grand-concl
+ ave-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-grand-commandery-of-kentucky-grand-conclave-2024@knightstemplar.de
+ v
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240915
+DTEND;VALUE=DATE:20240916
+SUMMARY:The Grand Commandery of Kentucky Grand Conclave 2024
+LOCATION:1801 Newtown Pike\, Lexington\, KY 40511
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/the-grand-commandery-of-kentucky-grand-conc
+ lave-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:south-central-department-conference-2024@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240918
+DTEND;VALUE=DATE:20240922
+SUMMARY:South Central Department Conference 2024
+LOCATION:6110 S Yale Ave\, Tulsa\, OK 74136
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/south-central-department-conference-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-grand-commandery-of-new-york-grand-conclave-2024@knightstemplar.de
+ v
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240919
+DTEND;VALUE=DATE:20240922
+SUMMARY:The Grand Commandery of New York Grand Conclave 2024
+LOCATION:Three\, Executive Blvd\, Suffern\, NY 10901
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/the-grand-commandery-of-new-york-grand-conc
+ lave-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-grand-commandery-of-south-dakota-grand-conclave-2024@knightstempla
+ r.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240920
+DTEND;VALUE=DATE:20240921
+SUMMARY:The Grand Commandery of South Dakota Grand Conclave 2024
+LOCATION:100 4th St SW\, Huron\, SD 57350
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/the-grand-commandery-of-south-dakota-grand-
+ conclave-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:mid-atlantic-department-conference-2024@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY:Mid-Atlantic Department Conference 2024
+LOCATION:2399 Richmond Hwy\, Arlington\, VA 22202
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/mid-atlantic-department-conference-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-grand-commandery-of-ohio-grand-conclave-2024@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20241009
+DTEND;VALUE=DATE:20241012
+SUMMARY:The Grand Commandery of Ohio Grand Conclave 2024
+LOCATION:6500 Doubletree Ave\, Columbus\, OH 43229
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/the-grand-commandery-of-ohio-grand-conclave
+ -2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:asia-pacific-department-conference-2024@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20241016
+DTEND;VALUE=DATE:20241017
+SUMMARY:Asia/Pacific Department Conference 2024
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/asia-pacific-department-conference-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:northwestern-department-conference-2024@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20241017
+DTEND;VALUE=DATE:20241019
+SUMMARY:Northwestern Department Conference 2024
+LOCATION:700 N Division St\, Spokane\, WA 99202
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/northwestern-department-conference-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-central-department-conference-2024@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20241023
+DTEND;VALUE=DATE:20241026
+SUMMARY:North Central Department Conference 2024
+LOCATION:3200 W Maple St\, Sioux Falls\, SD 57107
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/north-central-department-conference-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-grand-commandery-of-maryland-grand-conclave-2024@knightstemplar.de
+ v
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20241024
+DTEND;VALUE=DATE:20241026
+SUMMARY:The Grand Commandery of Maryland Grand Conclave 2024
+LOCATION:6600 Coastal Hwy\, Ocean City\, MD 21842
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/the-grand-commandery-of-maryland-grand-conc
+ lave-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-grand-commandery-of-massachusetts-rhode-island-grand-conclave-2024
+ @knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20241025
+DTEND;VALUE=DATE:20241027
+SUMMARY:The Grand Commandery of Massachusetts & Rhode Island Grand Conclav
+ e 2024
+LOCATION:31 Hampshire Street\, Mansfield\, MA 02048
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/the-grand-commandery-of-massachusetts-rhode
+ -island-grand-conclave-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:southwestern-department-conference-2024@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20241101
+DTEND;VALUE=DATE:20241102
+SUMMARY:Southwestern Department Conference 2024
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/southwestern-department-conference-2024/
+END:VEVENT
+BEGIN:VEVENT
+UID:gchi2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250222
+DTEND;VALUE=DATE:20250223
+SUMMARY:The Grand Commandery of Hawaii
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gchi2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcla2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250222
+DTEND;VALUE=DATE:20250224
+SUMMARY:The Grand Commandery of Louisiana
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcla2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcal2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250228
+DTEND;VALUE=DATE:20250303
+SUMMARY:The Grand Commandery of Alabama
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcal2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcnj2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250301
+DTEND;VALUE=DATE:20250302
+SUMMARY:The Grand Commandery of New Jersey
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcnj2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcde2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250307
+DTEND;VALUE=DATE:20250309
+SUMMARY:The Grand Commandery of Delaware
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcde2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcportugal2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250307
+DTEND;VALUE=DATE:20250309
+SUMMARY:The Grand Commandery of Portugal
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcportugal2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcsc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250307
+DTEND;VALUE=DATE:20250309
+SUMMARY:The Grand Commandery of South Carolina
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcsc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcusmexico2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250307
+DTEND;VALUE=DATE:20250309
+SUMMARY:The York Grand Commandery of US of Mexico
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcusmexico2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecdc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250308
+DTEND;VALUE=DATE:20250309
+SUMMARY:East Central Department Conference
+LOCATION:1020 S. Calhoun St.\, Ft. Wayne\, IN 46802.
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/ecdc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcalaska2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250308
+DTEND;VALUE=DATE:20250309
+SUMMARY:The Grand Commandery of Alaska
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcalaska2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcak2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250313
+DTEND;VALUE=DATE:20250315
+SUMMARY:The Grand Commandery of Arkansas
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcak2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcdc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250314
+DTEND;VALUE=DATE:20250315
+SUMMARY:The Grand Commandery District of Columbia
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcdc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcnc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250315
+DTEND;VALUE=DATE:20250318
+SUMMARY:The Grand Commandery of North Carolina
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcnc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gctn2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250324
+DTEND;VALUE=DATE:20250325
+SUMMARY:The Grand Commandery of Tennessee
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gctn2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcne2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250412
+SUMMARY:The Grand Commandery of Nebraska
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcne2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcnm2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250410
+SUMMARY:The Grand Commandery of New Mexico
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcnm2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcor2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250412
+SUMMARY:The Grand Commandery of Oregon
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcor2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gctx2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250413
+SUMMARY:The Grand Commandery of Texas
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gctx2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcct2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250411
+DTEND;VALUE=DATE:20250412
+SUMMARY:The Grand Commandery of Connecticut
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcct2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcid2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250423
+DTEND;VALUE=DATE:20250426
+SUMMARY:The Grand Commandery of Idaho
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcid2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcok2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250423
+DTEND;VALUE=DATE:20250426
+SUMMARY:The Grand Commandery of Oklahoma
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcok2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcin2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250424
+DTEND;VALUE=DATE:20250426
+SUMMARY:The Grand Commandery of Indiana
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcin2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcma2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250425
+DTEND;VALUE=DATE:20250426
+SUMMARY:The Grand Commandery of Maine
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcma2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcova2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250430
+DTEND;VALUE=DATE:20250503
+SUMMARY:The Grand Commandery of Virginia
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcova2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcga2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250501
+DTEND;VALUE=DATE:20250502
+SUMMARY:The Grand Commandery of Georgia
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcga2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcks2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250501
+DTEND;VALUE=DATE:20250503
+SUMMARY:The Grand Commandery of Kansas
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcks2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gccroatia2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250502
+DTEND;VALUE=DATE:20250503
+SUMMARY:The Grand Commandery of Croatia
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gccroatia2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcnh2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250508
+DTEND;VALUE=DATE:20250510
+SUMMARY:The Grand Commandery of New Hampshire
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcnh2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcut2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250509
+DTEND;VALUE=DATE:20250510
+SUMMARY:The Grand Commandery of Utah
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcut2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcwa2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250509
+DTEND;VALUE=DATE:20250510
+SUMMARY:The Grand Commandery of Washington
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcwa2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcca2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250514
+DTEND;VALUE=DATE:20250519
+SUMMARY:The Grand Commandery of California
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcca2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcwv2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250514
+DTEND;VALUE=DATE:20250517
+SUMMARY:The Grand Commandery of West Virginia
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcwv2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcitaly2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250515
+DTEND;VALUE=DATE:20250517
+SUMMARY:The Grand Commandery of Italy
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcitaly2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcms2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250515
+DTEND;VALUE=DATE:20250517
+SUMMARY:The Grand Commandery of Mississippi
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcms2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcnd2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250515
+DTEND;VALUE=DATE:20250517
+SUMMARY:The Grand Commandery of North Dakota
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcnd2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcfl2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250517
+DTEND;VALUE=DATE:20250521
+SUMMARY:The Grand Commandery of Florida
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcfl2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcpa2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250529
+DTEND;VALUE=DATE:20250531
+SUMMARY:The Grand Commandery of Pennsylvania
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcpa2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcia2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250604
+DTEND;VALUE=DATE:20250607
+SUMMARY:The Grand Commandery of Iowa
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcia2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcmt2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250604
+DTEND;VALUE=DATE:20250607
+SUMMARY:The Grand Commandery of Montana
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcmt2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcnv2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250607
+DTEND;VALUE=DATE:20250610
+SUMMARY:The Grand Commandery of Nevada
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcnv2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcvt2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250607
+DTEND;VALUE=DATE:20250609
+SUMMARY:The Grand Commandery of Vermont
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcvt2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcmo2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250610
+DTEND;VALUE=DATE:20250615
+SUMMARY:The Grand Commandery of Missouri
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcmo2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:sedc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250612
+DTEND;VALUE=DATE:20250614
+SUMMARY:South Eastern Department Conference
+LOCATION:1325 Virginia Ave\, Atlanta 30344
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/sedc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcaustria2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250612
+DTEND;VALUE=DATE:20250614
+SUMMARY:The Grand Commandery of Austria
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcaustria2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcwi2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250613
+DTEND;VALUE=DATE:20250614
+SUMMARY:The Grand Commandery of Wisconsin
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcwi2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcmn2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250625
+DTEND;VALUE=DATE:20250628
+SUMMARY:The Grand Commandery of Minnesota
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcmn2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcil2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250718
+DTEND;VALUE=DATE:20250719
+SUMMARY:The Grand Commandery of Illinois
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcil2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcaz2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250814
+DTEND;VALUE=DATE:20250815
+SUMMARY:The Grand Commandery of Arizona
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcaz2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcmi2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250814
+DTEND;VALUE=DATE:20250815
+SUMMARY:The Grand Commandery of Michigan
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcmi2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcco2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250904
+DTEND;VALUE=DATE:20250906
+SUMMARY:The Grand Commandery of Colorado
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcco2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:nedc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250905
+DTEND;VALUE=DATE:20250906
+SUMMARY:Northeastern Department Conference
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/nedc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcwy2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250910
+DTEND;VALUE=DATE:20250914
+SUMMARY:The Grand Commandery of Wyoming
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcwy2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcky2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250913
+DTEND;VALUE=DATE:20250916
+SUMMARY:The Grand Commandery of Kentucky
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcky2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:scdc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250919
+DTEND;VALUE=DATE:20250920
+SUMMARY:South Central Department Conference
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/scdc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcsd2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250919
+DTEND;VALUE=DATE:20250920
+SUMMARY:The Grand Commandery of South Dakota
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcsd2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcny2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250925
+DTEND;VALUE=DATE:20250928
+SUMMARY:The Grand Commandery of New York
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcny2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:madc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20250926
+DTEND;VALUE=DATE:20250927
+SUMMARY:Mid Atlantic Department Conference
+LOCATION:890 Elkridge Landing Road\, Linthicum Maryland 21090
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/madc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcoh2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20251008
+DTEND;VALUE=DATE:20251011
+SUMMARY:The Grand Commandery of Ohio
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcoh2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:apdc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20251015
+DTEND;VALUE=DATE:20251016
+SUMMARY:Asia/Pacific Department Conference
+LOCATION:Taft Ave\, Malate\, Manila\, 1004 Metro Manila\, Philippines
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/apdc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:nwdc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20251018
+SUMMARY:North Western Department Conference
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/nwdc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcphilippines2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20251017
+DTEND;VALUE=DATE:20251018
+SUMMARY:The Grand Commandery of Philippines
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcphilippines2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcmd2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20251023
+DTEND;VALUE=DATE:20251025
+SUMMARY:The Grand Commandery of Maryland
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcmd2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:ncdc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20251024
+DTEND;VALUE=DATE:20251025
+SUMMARY:North Central Department Conference
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/ncdc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcmsri2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20251024
+DTEND;VALUE=DATE:20251025
+SUMMARY:The Grand Commandery of Mass & Rhode Island
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcmsri2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:swdc2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20251031
+DTEND;VALUE=DATE:20251101
+SUMMARY:Southwestern Department Conference
+DESCRIPTION:Department Conference
+URL:https://usagekt.org/events/swdc2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcromania2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20251107
+DTEND;VALUE=DATE:20251108
+SUMMARY:The Grand Commandery of Romania
+DESCRIPTION:Grand Conclave
+URL:https://usagekt.org/events/gcromania2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:gcmexico2025@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251117
+SUMMARY:The Grand Commandery of Mexico
+DESCRIPTION:8:00 am - 6:00 pm Grand Conclave
+URL:https://usagekt.org/events/gcmexico2025/
+END:VEVENT
+BEGIN:VEVENT
+UID:easterobservance2026@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:96th Annual Easter Observance
+LOCATION:101 Callahan Dr\, Alexandria\, VA 22301
+DESCRIPTION:8:00 am - 9:30 am Religious
+URL:https://usagekt.org/events/easterobservance2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:northeastern-department-conference-2026@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260913
+SUMMARY:Northeastern Department Conference
+LOCATION:Albany\, NY
+DESCRIPTION:Department Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:south-central-department-conference-2026@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:South Central Department Conference
+LOCATION:Little Rock\, AR
+DESCRIPTION:Department Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:mid-atlantic-department-conference-2026@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:Mid-Atlantic Department Conference
+DESCRIPTION:Department Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:northwestern-department-conference-2026@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Northwestern Department Conference
+DESCRIPTION:Department Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:north-central-department-conference-2026@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261025
+SUMMARY:North Central Department Conference
+LOCATION:Sioux Falls\, SD
+DESCRIPTION:Department Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:southwestern-department-conference-2026@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Southwestern Department Conference
+DESCRIPTION:Department Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:east-central-department-conference-2027@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:East Central Department Conference
+LOCATION:Grand Wayne Convention Center\, Fort Wayne\, IN
+DESCRIPTION:Department Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:97th-annual-easter-observance-2027@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:97th Annual Easter Observance
+LOCATION:George Washington Masonic National Memorial\, 101 Callahan Dr\, A
+ lexandria\, VA 22301
+DESCRIPTION:Memorial service 8:00 am Religious
+END:VEVENT
+BEGIN:VEVENT
+UID:southeastern-department-conference-2027@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270613
+SUMMARY:Southeastern Department Conference
+LOCATION:Kissimmee\, FL
+DESCRIPTION:Department Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:70th-triennial-conclave-2027@knightstemplar.dev
+DTSTAMP:20261124T225135Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270819
+SUMMARY:70th Triennial Conclave
+LOCATION:Los Angeles Marriott Burbank Airport\, Burbank\, CA
+DESCRIPTION:Triennial Conclave
+END:VEVENT
+END:VCALENDAR

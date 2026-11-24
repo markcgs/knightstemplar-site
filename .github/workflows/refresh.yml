@@ -1,0 +1,33 @@
+# Daily refresh from usagekt.org: calendar, State News, notices, magazine and pages.
+# Commits only when the fetched data changed; the push to main makes
+# Cloudflare Workers Builds deploy the new pages.
+name: Refresh from usagekt.org
+on:
+  schedule:
+    - cron: "17 11 * * *"   # 4:17 am Pacific
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: refresh
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch usagekt.org
+        run: python3 build/fetch.py
+      - name: Build if anything changed
+        run: |
+          if git diff --quiet -- build/data; then
+            echo "No changes on usagekt.org."
+            exit 0
+          fi
+          python3 build/build.py
+          git config user.name "knightstemplar.dev refresh"
+          git config user.email "actions@users.noreply.github.com"
+          git add build/data public
+          git commit -m "Refresh content from usagekt.org"
+          git push
