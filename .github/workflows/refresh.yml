@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # always refresh main, whichever branch is the repo default
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -30,4 +32,4 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add build/data public
           git commit -m "Refresh content from usagekt.org"
-          git push
+          git push origin HEAD:main
