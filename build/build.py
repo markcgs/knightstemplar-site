@@ -379,6 +379,7 @@ def page(path, title, body, desc="", wide=False, crumbs=None):
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="alternate" type="text/calendar" title="Grand Encampment calendar" href="/calendar.ics">
 <script>try{{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}}catch(e){{}}document.documentElement.classList.add("js")</script>
+<link rel="preload" href="/fonts/frank-ruhl-libre-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/site.css">
 <script src="/site.js" defer></script>
 </head>
@@ -387,7 +388,7 @@ def page(path, title, body, desc="", wide=False, crumbs=None):
 <div class="demo-bar" role="note"><div class="wrap"><strong>Demonstration site.</strong> A proposed redesign of <a href="{SRC}/" rel="noopener">usagekt.org</a>, built from its own public content. Not an official Grand Encampment website. <a href="/about-this-demo/">About this demo</a></div></div>
 <header class="site-head">
 <div class="wrap head-row">
-<a class="brand" href="/"><img src="/img/gekt/wordmark.webp" alt="Grand Encampment of Knights Templar of the U.S.A., home" width="301" height="60"></a>
+<a class="brand" href="/"><img src="/img/gekt/wordmark.webp" alt="Grand Encampment of Knights Templar of the U.S.A., home" width="306" height="60"></a>
 <div class="head-tools">
 <a class="head-link" href="/contact/">Contact</a>
 {THEME_BTN}
@@ -933,7 +934,7 @@ def build_demo_page():
 
 
 def build_404():
-    body = hero("Page not found", "That page isn't here. Try the menu above, or start from the home page.") + '<div class="wrap"><p><a class="btn" href="/">Home</a></p></div>'
+    body = hero("Page not found", "That page isn't here. Try the menu above, or start from the home page.") + '<div class="wrap"><img class="knight-404" src="/img/gekt/knight-shield.webp" alt="" width="196" height="400"><p><a class="btn" href="/">Home</a></p></div>'
     (ROOT / "404.html").write_text(HOTLINK_IMG.sub("", page("/404", "Page not found", body)))
 
 
@@ -981,7 +982,7 @@ OLD = {
 
 def main():
     for p in ROOT.iterdir():
-        if p.is_dir() and p.name not in ("img",):
+        if p.is_dir() and p.name not in ("img", "fonts"):
             shutil.rmtree(p)
     for slug, p in PAGES.items():
         PAGES_TITLE[TITLES.get(slug, "")] = p["title"]

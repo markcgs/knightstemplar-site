@@ -1,27 +1,29 @@
-/* knightstemplar.dev demo. Light tokens on :root; dark tokens twice (device + toggle). */
+/* knightstemplar.dev demo. Light tokens on :root; dark tokens twice (device + toggle).
+   Brand per the GEKT style guide: Imperial #4D2E69, White Dove #FCFBF8, Frank Ruhl Libre. */
+@font-face { font-family: "Frank Ruhl Libre"; font-style: normal; font-weight: 300 900; font-display: swap; src: url(/fonts/frank-ruhl-libre-latin.woff2) format("woff2"); }
 :root {
   color-scheme: light;
   --bg: #f6f2ea;
-  --surface: #fffdf8;
+  --surface: #fcfbf8;
   --surface-2: #efe8db;
   --ink: #221a29;
   --muted: #5b5163;
   --line: #ddd2c1;
-  --purple: #45206a;
-  --purple-ink: #4b2474;
+  --purple: #4d2e69;
+  --purple-ink: #4d2e69;
   --purple-soft: #ece4f3;
   --gold: #8a6510;
   --gold-bright: #c9a03c;
   --red: #9b1c1c;
-  --link: #4b2474;
-  --head-bg: #2c1342;
+  --link: #4d2e69;
+  --head-bg: #4d2e69;
   --head-ink: #f6f0fb;
   --head-muted: #d9cbe6;
   --demo-bg: #c9a03c;
   --demo-ink: #1d1406;
   --shadow: 0 1px 2px rgb(34 26 41 / .06), 0 6px 18px rgb(34 26 41 / .06);
   --radius: 10px;
-  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --serif: "Frank Ruhl Libre", "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
@@ -40,7 +42,7 @@
     --gold-bright: #e2c06e;
     --red: #f08a7e;
     --link: #d8c3ef;
-    --head-bg: #120c17;
+    --head-bg: #241733;
     --head-ink: #f3eef7;
     --head-muted: #c9bcd6;
     --demo-bg: #3a2c0c;
@@ -63,7 +65,7 @@
   --gold-bright: #e2c06e;
   --red: #f08a7e;
   --link: #d8c3ef;
-  --head-bg: #120c17;
+  --head-bg: #241733;
   --head-ink: #f3eef7;
   --head-muted: #c9bcd6;
   --demo-bg: #3a2c0c;
@@ -180,7 +182,7 @@ tr:last-child > * { border-bottom: 0; }
 .tag { display: inline-block; font-size: .7rem; font-weight: 700; letter-spacing: .05em; border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; margin-left: 4px; color: var(--muted); text-decoration: none !important; vertical-align: 1px; }
 
 /* home */
-.hero { background: radial-gradient(ellipse at 85% 30%, rgb(201 160 60 / .18), transparent 55%), linear-gradient(160deg, #2c1342, #45206a 60%, #5b2a86); color: #f8f2fc; padding: 56px 0 64px; }
+.hero { background: radial-gradient(ellipse at 85% 30%, rgb(201 160 60 / .18), transparent 55%), linear-gradient(160deg, #3a2251, #4d2e69 60%, #5e3a80); color: #f8f2fc; padding: 56px 0 64px; }
 .hero h1 { color: #fff; font-size: clamp(2.1rem, 5.4vw, 3.4rem); }
 .hero .kicker { color: #e7c873; }
 .hero .lede { color: #e6dcef; }
@@ -289,7 +291,7 @@ table.news th[scope="row"] { white-space: nowrap; }
 .brand img { width: auto; height: 60px; border-radius: 0; background: transparent; }
 @media (max-width: 700px) { .brand img { height: 44px; width: auto; } }
 @media (max-width: 380px) { .brand img { height: 38px; } }
-.hero-home { background: linear-gradient(100deg, rgb(28 10 44 / .94) 0%, rgb(44 19 66 / .88) 45%, rgb(69 32 106 / .55) 100%), url(/img/gekt/golgotha.webp) center 70% / cover no-repeat, #2c1342; padding: 72px 0 80px; }
+.hero-home { background: linear-gradient(100deg, rgb(36 20 52 / .94) 0%, rgb(56 32 78 / .88) 45%, rgb(77 46 105 / .55) 100%), url(/img/gekt/golgotha.webp) center 70% / cover no-repeat, #4d2e69; padding: 72px 0 80px; }
 .hero-home .hero-seal { border-radius: 50%; }
 .charity img { height: 96px; width: 96px; object-fit: contain; padding: 0; background: transparent; }
 .charity a { justify-content: flex-start; }
@@ -300,3 +302,4 @@ img.portrait { display: block; width: auto; max-width: 180px; height: auto; bord
 .prose > img.portrait:first-child { float: right; clear: none; width: auto; margin: 0 0 1rem 1.25rem; }
 .prose p, .prose h2 { overflow-wrap: anywhere; }
 .prose h2, .prose h3 { clear: both; }
+.knight-404 { display: block; width: 140px; height: auto; margin: 0 0 1rem; }
