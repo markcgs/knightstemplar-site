@@ -1,0 +1,4 @@
+{"out":"../../public/img/og.jpg","layout":"logo-left","logo":"../../public/img/seal.webp","logoHeight":360,"logoCol":360,
+ "kicker":"Knights Templar of the U.S.A.","name":"The Grand Encampment","nameSize":70,"tagline":"How to join, the calendar, State News, the magazine and charities","domain":"knightstemplar.dev",
+ "colors":{"bg":"#45206a","bg2":"#1d0b2e","accent":"#c9a03c","glow":"rgba(201,160,60,.18)"},
+ "fonts":{"css":"https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;600&display=swap","display":"Cinzel, serif","body":"Inter, sans-serif"}}

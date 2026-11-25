@@ -4,6 +4,7 @@ Static demo of a redesigned usagekt.org (Grand Encampment of Knights Templar of 
 
 - Data: `build/fetch.py` reads usagekt.org (WordPress REST pages, Modern Events Calendar event pages, State News accordions, articles, home-page notices) into `build/data/*.json`. `.github/workflows/refresh.yml` runs it daily and commits only when data changed.
 - Pages: `build/build.py` (section map, cleaner for the Elementor HTML, calendar + `calendar.ics`, State News, magazine, home, contact, old-URL `_redirects`). Run `python3 build/build.py` and commit the regenerated `public/`. Styles `public/site.css`, script `public/site.js`.
+- Share image: every page carries Open Graph + Twitter card tags (summary_large_image) pointing at the 1200x630 `public/img/og.jpg`. To change it, edit `tools/og-image/config.json` and run `node tools/og-image/render.mjs` (uses the Playwright Chromium in the cloud container), then commit the new image.
 - Link to usagekt.org files (PDFs, photos, Issuu magazine); don't copy them here (Mark 2026-11-24: linking is great; the GEKT seal and officer names may be used). Files under `/_pda/` are members-only on usagekt.org and 404 publicly: never link them.
 - `CURATED` in build.py adds dates the usagekt.org calendar lacks; each must come from a published notice, the Department Conferences page or kt-triennial.org. Don't invent dates, officers, fees or facts.
 - Keep it out of search engines while it is a demo: robots meta, `public/robots.txt`, `X-Robots-Tag` in `public/_headers`.

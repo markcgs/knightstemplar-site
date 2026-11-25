@@ -367,7 +367,14 @@ def page(path, title, body, desc="", wide=False, crumbs=None):
 <meta name="description" content="{e(desc)}">
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}">
-<meta property="og:image" content="{SITE}/img/seal.webp">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{NAME}">
+<meta property="og:url" content="{SITE}{path}">
+<meta property="og:image" content="{SITE}/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Seal of the Grand Encampment of Knights Templar of the U.S.A.">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="alternate" type="text/calendar" title="Grand Encampment calendar" href="/calendar.ics">
