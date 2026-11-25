@@ -284,3 +284,19 @@ table.news th[scope="row"] { white-space: nowrap; }
 .charity a { justify-content: center; min-height: 96px; border-top: 3px solid var(--gold-bright); }
 .brand img, .hero-seal { background: transparent; }
 .hero-seal { box-shadow: 0 20px 50px rgb(0 0 0 / .35); }
+
+/* Rebrand (2026-11-25): GEKT wordmark, Golgotha hero, local portraits and charity logos from Mark's knightstemplar.dev backup */
+.brand img { width: auto; height: 60px; border-radius: 0; background: transparent; }
+@media (max-width: 700px) { .brand img { height: 44px; width: auto; } }
+@media (max-width: 380px) { .brand img { height: 38px; } }
+.hero-home { background: linear-gradient(100deg, rgb(28 10 44 / .94) 0%, rgb(44 19 66 / .88) 45%, rgb(69 32 106 / .55) 100%), url(/img/gekt/golgotha.webp) center 70% / cover no-repeat, #2c1342; padding: 72px 0 80px; }
+.hero-home .hero-seal { border-radius: 50%; }
+.charity img { height: 96px; width: 96px; object-fit: contain; padding: 0; background: transparent; }
+.charity a { justify-content: flex-start; }
+img.portrait { display: block; width: auto; max-width: 180px; height: auto; border-radius: 8px; margin: 0 0 1rem; box-shadow: var(--shadow); }
+.pgm { display: flex; gap: 1.25rem; align-items: center; margin: 0 0 1.25rem; }
+.pgm img.portrait { width: 100px; margin: 0; flex: none; }
+.pgm p { margin: 0 0 .35rem; }
+.prose > img.portrait:first-child { float: right; clear: none; width: auto; margin: 0 0 1rem 1.25rem; }
+.prose p, .prose h2 { overflow-wrap: anywhere; }
+.prose h2, .prose h3 { clear: both; }

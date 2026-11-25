@@ -387,7 +387,7 @@ def page(path, title, body, desc="", wide=False, crumbs=None):
 <div class="demo-bar" role="note"><div class="wrap"><strong>Demonstration site.</strong> A proposed redesign of <a href="{SRC}/" rel="noopener">usagekt.org</a>, built from its own public content. Not an official Grand Encampment website. <a href="/about-this-demo/">About this demo</a></div></div>
 <header class="site-head">
 <div class="wrap head-row">
-<a class="brand" href="/"><img src="/img/seal.webp" alt="" width="56" height="56"><span><span class="b1">Grand Encampment</span><span class="b2">Knights Templar of the U.S.A.</span></span></a>
+<a class="brand" href="/"><img src="/img/gekt/wordmark.webp" alt="Grand Encampment of Knights Templar of the U.S.A., home" width="301" height="60"></a>
 <div class="head-tools">
 <a class="head-link" href="/contact/">Contact</a>
 {THEME_BTN}
@@ -426,10 +426,36 @@ def page(path, title, body, desc="", wide=False, crumbs=None):
 # usagekt.org blocks its images from being shown on other sites (hotlink
 # protection), so pages here don't embed them. Files and pages are still linked.
 HOTLINK_IMG = re.compile(r'<img[^>]+src="https://usagekt\.org/[^"]*"[^>]*>')
+# usagekt.org images we have our own copies of (from Mark's 2024 knightstemplar.dev backup),
+# keyed by usagekt file name -> (local file, width, height). Everything else is stripped.
+LOCAL_IMG = {
+    "tswebb.jpg": ("webb", 171, 250), "hfowle.jpg": ("fowle", 176, 250), "jsnow.jpg": ("snow", 185, 250),
+    "jkstapleton.jpg": ("stapleton", 160, 250), "tlowndes.jpg": ("lowndes", 144, 250), "jcsmith.jpg": ("smith", 152, 250),
+    "kbfischer.png": ("fischer", 166, 250), "whkoon.png": ("koon", 164, 249), "ddgoodwin.png": ("goodwin", 164, 249),
+    "dlvaught.png": ("vaught", 164, 249), "jnnelson.png": ("nelson", 180, 250), "kussman.png": ("kussman", 234, 350),
+    "ktef.png": ("ktef", 240, 240), "edu.png": ("ktedu", 240, 240), "hlp.gif": ("kthlp", 240, 236), "40-miles.gif": ("40miles", 240, 240),
+}
+IMG_SRC = re.compile(r'<img[^>]+src="https://usagekt\.org/[^"]*/([^"/]+)"[^>]*>')
+
+
+def local_img(m):
+    hit = LOCAL_IMG.get(m.group(1))
+    if not hit:
+        return m.group(0)
+    alt = re.search(r'alt="([^"]*)"', m.group(0))
+    name, w, h = hit
+    return f'<img class="portrait" src="/img/gekt/{name}.webp" alt="{alt.group(1) if alt else ""}" width="{w}" height="{h}" loading="lazy">'
+
+
+IMG_LINK = re.compile(r'<a href="https://usagekt\.org/[^"]+\.(?:png|jpe?g|gif|webp)">\s*(<img class="portrait"[^>]*>)?\s*</a>')
+
+
+PORTRAIT_ENTRY = re.compile(r'(<img class="portrait"[^>]*>)\s*(<p>\d{4}\s*-\s*\d{4}</p><p>.*?</p>)')
 
 
 def write(path, html):
-    html = HOTLINK_IMG.sub("", html)
+    html = IMG_LINK.sub(lambda m: m.group(1) or "", HOTLINK_IMG.sub("", IMG_SRC.sub(local_img, html)))
+    html = PORTRAIT_ENTRY.sub(r'<div class="pgm">\1<div>\2</div></div>', html)
     out = ROOT / path.strip("/") / "index.html" if not path.endswith(".html") else ROOT / path.strip("/")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html)
@@ -799,8 +825,6 @@ def notice_groups():
 
 
 def build_home(up):
-    gm = PAGES.get("go", {}).get("html", "")
-    gm_img = re.search(r'<img[^>]+src="([^"]+Kussman[^"]+)"', gm)
     easter, xmas = notice_groups()
     ey = re.search(r"/(\d{4})_GEKT_Easter", " ".join(u for _, u in easter))
     year, latest = latest_news(8)
@@ -809,7 +833,7 @@ def build_home(up):
     cover = HOME.get("issue_cover")
     issue = HOME.get("issue") or ISSUU
     body = f"""
-<section class="hero">
+<section class="hero hero-home">
 <div class="wrap hero-grid">
 <div>
 <p class="kicker">Grand Encampment of Knights Templar of the U.S.A.</p>
@@ -817,7 +841,7 @@ def build_home(up):
 <p class="lede">The Grand Encampment gives every Christian Freemason the opportunity to extend his Masonic journey through the chivalric experience: in the Commandery, in service to its charities, and in fellowship with Sir Knights across the world.</p>
 <p class="btns"><a class="btn" href="/about/join/">How to become a Knight Templar</a><a class="btn btn-quiet" href="/resources/grand-commanderies/">Find your Grand Commandery</a></p>
 </div>
-<img class="hero-seal" src="/img/seal.webp" alt="Seal of the Grand Encampment of Knights Templar" width="360" height="360">
+<img class="hero-seal" src="/img/seal.webp" alt="Seal of the Grand Encampment of Knights Templar of the U.S.A." width="360" height="360">
 </div>
 </section>
 <div class="wrap">
@@ -843,7 +867,7 @@ def build_home(up):
 <ul class="news-grid">{news}</ul>
 </section>
 <section class="band leader">
-{f'<img src="{e(gm_img.group(1))}" alt="Sir Knight David J. Kussman" width="160" height="240" loading="lazy">' if gm_img else ""}
+<img src="/img/gekt/kussman.webp" alt="Sir Knight David J. Kussman" width="160" height="240" loading="lazy">
 <div><p class="kicker">Most Eminent Grand Master</p><h2>Sir Knight David J. Kussman</h2>
 <p>The Grand Master leads the Grand Encampment with the elected Grand Officers and the Department Commanders, who represent him across the United States and abroad.</p>
 <p class="btns"><a class="btn" href="/leadership/grand-officers/">Grand Officers</a><a class="btn btn-quiet" href="/leadership/department-commanders/">Department Commanders</a></p></div>
@@ -851,10 +875,10 @@ def build_home(up):
 <section>
 <div class="sec-head"><h2>Knights Templar serve mankind</h2><a href="/charities/">Charities {icon("arrow", 16)}</a></div>
 <ul class="charity">
-<li><a href="https://www.ktef.org/" rel="noopener"><img src="{SRC}/wp-content/uploads/2024/06/ktef.png" alt="" loading="lazy"><span>Knights Templar Eye Foundation</span></a></li>
-<li><a href="/charities/educational-foundation/"><img src="{SRC}/wp-content/uploads/2024/06/edu.png" alt="" loading="lazy"><span>Knights Templar Educational Foundation</span></a></li>
-<li><a href="https://kthlp.com/" rel="noopener"><img src="{SRC}/wp-content/uploads/2024/06/hlp.gif" alt="" loading="lazy"><span>Holy Land Pilgrimage</span></a></li>
-<li><a href="/charities/40-mile-project/"><img src="{SRC}/wp-content/uploads/2024/06/40-miles.gif" alt="" loading="lazy"><span>40 Mile Project prayer requests</span></a></li>
+<li><a href="https://www.ktef.org/" rel="noopener"><img src="/img/gekt/ktef.webp" alt="" width="120" height="120" loading="lazy"><span>Knights Templar Eye Foundation</span></a></li>
+<li><a href="/charities/educational-foundation/"><img src="/img/gekt/ktedu.webp" alt="" width="120" height="120" loading="lazy"><span>Knights Templar Educational Foundation</span></a></li>
+<li><a href="https://kthlp.com/" rel="noopener"><img src="/img/gekt/kthlp.webp" alt="" width="120" height="118" loading="lazy"><span>Holy Land Pilgrimage</span></a></li>
+<li><a href="/charities/40-mile-project/"><img src="/img/gekt/40miles.webp" alt="" width="120" height="120" loading="lazy"><span>40 Mile Project prayer requests</span></a></li>
 </ul>
 </section>
 <section class="split">
