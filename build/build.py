@@ -423,7 +423,13 @@ def page(path, title, body, desc="", wide=False, crumbs=None):
 """
 
 
+# usagekt.org blocks its images from being shown on other sites (hotlink
+# protection), so pages here don't embed them. Files and pages are still linked.
+HOTLINK_IMG = re.compile(r'<img[^>]+src="https://usagekt\.org/[^"]*"[^>]*>')
+
+
 def write(path, html):
+    html = HOTLINK_IMG.sub("", html)
     out = ROOT / path.strip("/") / "index.html" if not path.endswith(".html") else ROOT / path.strip("/")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html)
@@ -904,7 +910,7 @@ def build_demo_page():
 
 def build_404():
     body = hero("Page not found", "That page isn't here. Try the menu above, or start from the home page.") + '<div class="wrap"><p><a class="btn" href="/">Home</a></p></div>'
-    (ROOT / "404.html").write_text(page("/404", "Page not found", body))
+    (ROOT / "404.html").write_text(HOTLINK_IMG.sub("", page("/404", "Page not found", body)))
 
 
 # Old knightstemplar.dev WordPress paths -> new pages.

@@ -276,3 +276,11 @@ table.news th[scope="row"] { white-space: nowrap; }
 .o-links { margin: 0; font-size: .92rem; overflow-wrap: anywhere; }
 .cols-list ul { columns: 3 220px; column-gap: 28px; padding-left: 1.2em; } .cols-list li { break-inside: avoid; margin: .2em 0; } .prose:has(.cols-list) { max-width: 1160px; }
 .o-links a { display: inline-block; padding: 4px 0; }
+
+/* No embedded usagekt.org images (hotlink protection): text-only fallbacks */
+.mag-cover:empty { display: none; }
+.mag:has(.mag-cover:empty) { grid-template-columns: 1fr; }
+.mag-home { padding: 22px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); border-left: 4px solid var(--gold-bright); text-decoration: none; font-family: var(--serif); font-size: 1.15rem; }
+.charity a { justify-content: center; min-height: 96px; border-top: 3px solid var(--gold-bright); }
+.brand img, .hero-seal { background: transparent; }
+.hero-seal { box-shadow: 0 20px 50px rgb(0 0 0 / .35); }
