@@ -1,6 +1,6 @@
 # knightstemplar.dev
 
-A working demonstration of a redesigned website for the Grand Encampment of Knights Templar of the U.S.A. (today's site: usagekt.org), built by Creative Technology Partners from the Grand Encampment's own public content.
+A working demonstration of a redesigned website for the Grand Encampment of Knights Templar of the U.S.A. (today's site: usagekt.org), built by the Freemason.dev Foundation from the Grand Encampment's own public content.
 
 ```
 python3 build/fetch.py   # read usagekt.org into build/data/

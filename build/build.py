@@ -417,7 +417,7 @@ def page(path, title, body, desc="", wide=False, crumbs=None):
 <ul>{social}</ul>
 </div>
 </div>
-<div class="wrap foot-note"><p>Demonstration redesign by <a href="https://creativetechnologypartners.com" rel="noopener">Creative Technology Partners</a>. Content, documents and photos belong to the Grand Encampment and are drawn from <a href="{SRC}/" rel="noopener">usagekt.org</a>; last refreshed {UPDATED}.</p></div>
+<div class="wrap foot-note"><p>Demonstration redesign by <a href="https://freemason.dev/" rel="noopener">Freemason.dev Foundation</a>. Content, documents and photos belong to the Grand Encampment and are drawn from <a href="{SRC}/" rel="noopener">usagekt.org</a>; last refreshed {UPDATED}.</p></div>
 </footer>
 </body>
 </html>
@@ -928,7 +928,7 @@ def build_demo_page():
 </ul>
 <h2>What stays the same</h2>
 <p>Members' logins, forms, documents and the magazine stay where they are today. The site links to them; nothing is moved.</p>
-<p class="src-note">Built by <a href="https://creativetechnologypartners.com" rel="noopener">Creative Technology Partners</a>. Content last refreshed from usagekt.org on {UPDATED}.</p>
+<p class="src-note">Built by <a href="https://freemason.dev/" rel="noopener">Freemason.dev Foundation</a>. Content last refreshed from usagekt.org on {UPDATED}.</p>
 </div>""")
     write("/about-this-demo/", page("/about-this-demo/", "About this demonstration", body, "About the knightstemplar.dev demonstration site."))
 
